@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Build output
+frontend/dist/
+
+# Environment
+.env
+.env.local
+
+# Databases
+*.sqlite3
+test_*.db
+*.db-journal
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python test/cache
+.pytest_cache/
+*.pyo
+
+# Logs
+*.log
+dev.log
+.vercel
+.env*
+!.env.example
